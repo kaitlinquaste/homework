@@ -1,0 +1,45 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url(../images/jacalyn-beales-KDg6MX6Wszs-unsplash.jpg);
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container{
+	background: #D5CFCB;
+	width: 424px;
+	color: #BF6A53;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+  p, h1, h2, h3, h4, ol, li, ul { font-family: 'Kaisei Tokumin', serif; }
+
+h1{font-size: 65px;
+color: white; }
+
+h2{background: #BF6A53;
+color: white;
+padding: 5px;
+border-radius: 5px;
+font-style: italic;}
+
+a{color: #802823;
+text-decoration: none;}
